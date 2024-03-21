@@ -1,7 +1,8 @@
 <script setup>
 import Header from './components/Header/Header.vue'
 import Counter from './components/Counter.vue'
-  import InputsTypes from './components/InputsTypes.vue';
+import InputsTypes from './components/InputsTypes.vue';
+  import FetchData from './components/FetchData.vue'
 import './assets/App.css'
 import { ref } from 'vue';
 
@@ -24,6 +25,7 @@ const objectProps = {
   <Header/>
   <Counter v-bind="objectProps"/>
   <InputsTypes />
+  <FetchData />
 </template>
 
 <style scoped>

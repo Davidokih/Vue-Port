@@ -18,7 +18,8 @@
         <div class="fixed right-0 hidden tablet:flex items-center justify-center top-0 h-dvh bg-[#112240] transition-all duration-700 delay-500 w-[75vw] min-w-96 z-40"
             :class=" state ? 'visible translate-x-[0vw]' : 'translate-x-[100vw] invisible' ">
             <div class="flex items-center justify-center flex-col">
-                <div class="absolute top-5 right-5 cursor-pointer" @click=" state = !state">Close</div>
+                <div class="absolute top-5 right-5 cursor-pointer" @click=" state = !state"><font-awesome-icon
+                        icon="fa-solid fa-xmark" size="2xl" /></div>
                 <div class="m-spaces text-center leading-loose text-navClamp font-bold">
                     <!-- <div class="text-button">01.</div> -->
                     <div class="m-spaces hover:text-button cursor-pointer">About</div>
@@ -39,11 +40,11 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 import Button from '../components/Button.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 // import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 const title = ref('Resume');
 const padding = ref('py-2 px-5');
 const padding2 = ref('py-2 px-14');
-library.add(faBars);
+library.add(faBars, faXmark);
 
 
 const state = ref(false);

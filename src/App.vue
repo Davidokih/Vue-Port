@@ -25,7 +25,7 @@ const objectProps = {
 </script>
 
 <template>
-  <div class="bg-secondary text-primary flex items-center justify-center">
+  <div class="bg-secondary text-primary flex items-center justify-center font-family">
     <div class="w-[90%]">
       <Header />
       <Hero />

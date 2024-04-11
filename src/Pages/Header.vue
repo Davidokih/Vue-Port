@@ -14,13 +14,38 @@
             </div>
             <Button :title=" title " :padding=" padding " />
         </div>
-        <div class="hidden tablet:block">Menu</div>
+        <font-awesome-icon icon="fa-solid fa-bars" size="2xl" class="cursor-pointer" @click=" state = !state" />
+        <div class="fixed right-0 hidden tablet:flex items-center justify-center top-0 h-dvh bg-[#112240] transition-all duration-700 delay-500 w-[75vw] min-w-96 z-40"
+            :class=" state ? 'visible translate-x-[0vw]' : 'translate-x-[100vw] invisible' ">
+            <div class="flex items-center justify-center flex-col">
+                <div class="absolute top-5 right-5 cursor-pointer" @click=" state = !state">Close</div>
+                <div class="m-spaces text-center leading-loose text-navClamp font-bold">
+                    <!-- <div class="text-button">01.</div> -->
+                    <div class="m-spaces hover:text-button cursor-pointer">About</div>
+                    <div class="m-spaces hover:text-button cursor-pointer">Experience</div>
+                    <div class="m-spaces hover:text-button cursor-pointer">Projects</div>
+                    <div class="m-spaces hover:text-button cursor-pointer">Contact</div>
+                    <div class="mt-20">
+                        <Button :title=" title " :padding=" padding2 " />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import Button from '../components/Button.vue';
+import { library } from '@fortawesome/fontawesome-svg-core';
+// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 const title = ref('Resume');
 const padding = ref('py-2 px-5');
+const padding2 = ref('py-2 px-14');
+library.add(faBars);
+
+
+const state = ref(false);
+
 </script>

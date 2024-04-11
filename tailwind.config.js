@@ -12,7 +12,12 @@ export default {
         secondary: '#0a192f'
       },
       fontSize: {
-        clamp: "clamp(40px, 8vw, 70px)"
+        clamp: "clamp(40px, 8vw, 70px)",
+        navClamp: "clamp(16px,4vw,20px)",
+        family: "'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace"
+      },
+      margin: {
+        spaces: "10px auto 20px"
       },
       screens: {
         tablet: { max: '768px' },

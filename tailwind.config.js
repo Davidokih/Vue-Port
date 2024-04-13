@@ -14,10 +14,12 @@ export default {
       fontSize: {
         clamp: "clamp(40px, 8vw, 70px)",
         navClamp: "clamp(16px,4vw,20px)",
+        subClamp: "clamp(26px,5vw,32px)",
         family: "'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace"
       },
       margin: {
-        spaces: "10px auto 20px"
+        spaces: "10px auto 20px",
+        subSpace: "10px 0px 40px",
       },
       screens: {
         tablet: { max: '768px' },

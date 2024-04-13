@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { ref } from 'vue';
 import Button from '../components/Button.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 // import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
@@ -50,3 +50,5 @@ library.add(faBars, faXmark);
 const state = ref(false);
 
 </script>
+
+

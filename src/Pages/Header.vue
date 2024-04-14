@@ -14,8 +14,9 @@
             </div>
             <Button :title=" title " :padding=" padding " />
         </div>
-        <font-awesome-icon icon="fa-solid fa-bars" size="2xl" class="cursor-pointer" @click=" state = !state" />
-        <div class="fixed right-0 hidden tablet:flex items-center justify-center top-0 h-dvh bg-[#112240] transition-all duration-700 delay-500 w-[75vw] min-w-96 z-40"
+        <font-awesome-icon icon="fa-solid fa-bars" size="2xl" class="cursor-pointer hidden tablet:block"
+            @click=" state = !state" />
+        <div class="fixed right-0 hidden tablet:flex items-center justify-center top-0 h-dvh bg-[#112240] transition-all duration-700 delay-500 w-[75vw] min-w-96 z-50"
             :class=" state ? 'visible translate-x-[0vw]' : 'translate-x-[100vw] invisible' ">
             <div class="flex items-center justify-center flex-col">
                 <div class="absolute top-5 right-5 cursor-pointer" @click=" state = !state"><font-awesome-icon
@@ -50,5 +51,3 @@ library.add(faBars, faXmark);
 const state = ref(false);
 
 </script>
-
-

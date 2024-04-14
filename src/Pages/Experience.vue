@@ -5,9 +5,29 @@
                 <Title :no=' no ' :name=' name ' />
             </div>
             <div class="flex items-center justify-between flex-wrap">
-                <div class="flex items-center justify-center flex-col">
-                    <font-awesome-icon icon="fa-brands fa-react" size="2xl" style="color: #63E6BE;" />
-                    <div>React.JS</div>
+                <div class="flex items-center justify-center flex-col m-8 mobile:m-5">
+                    <img src="../assets/Logo/js.png" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">JScript</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8 mobile:m-5">
+                    <img src="../assets/Logo/typescript.png" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">TScript</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8 mobile:m-5">
+                    <img src="../assets/Logo/python.png" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">Python</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8 mobile:m-5">
+                    <img src="../assets/Logo/vue.svg" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">Vue.JS</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8 mobile:m-5">
+                    <img src="../assets/Logo/atom.png" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">React.JS</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8">
+                    <img src="../assets/Logo/atom.png" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">React.JS</div>
                 </div>
             </div>
         </div>

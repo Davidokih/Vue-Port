@@ -4,23 +4,26 @@
             <div class="w-full flex justify-start items-center py-[20px]">
                 <Title :no=' no ' :name=' name ' />
             </div>
-            <div class="flex items-start justify-center gap-[50px] tablet:flex-col tablet:items-center">
-                <div
-                    class="w-[100%] flex flex-col items-start justify-start gap-[10px] text-[18px] text-[#8892b0] font-sans font-medium">
-                    <div>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest
-                        in web development started back in 2012 when I decided to try editing custom Tumblr themes —
-                        turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</div>
-                </div>
-                <div class="w-[90%] radio:w-[100%] relativ flex items-center justify-center">
-                    <div
-                        class="w-[300px] h-[300px] border-2 border-white rounded translate-x-[15px] translate-y-[15px] hover:translate-x-[20px] hover:translate-y-[20px] hover:duration-300 absolute mobile:w-[200px] mobile:h-[200px]">
+            <div class="">
+                <div class="py-8 px-7 bg-cardColor flex flex-col justify-between items-start">
+                    <div class="mb-8">
+                        <div> hello</div>
+                        <div></div>
                     </div>
-                    <img class="w-[300px] h-[300px] bg-white rounded hover:translate-x-[-4px] hover:translate-y-[-4px]  hover:duration-300 object-cover mobile:w-[200px] mobile:h-[200px] z-30"
-                        src="../assets/IMG_9519.JPG" alt="" />
-                    <div
-                        class="w-[300px] h-[300px] bg-[#0A192F] rounded absolute opacity-50 hover:opacity-5 mobile:w-[200px] mobile:h-[200px] z-40">
+                    <div class="text-navClamp text-[#ccd6f6] font-semibold mb-3"><a
+                            href="https://cross-africa.vercel.app" class="">Cross
+                            Africa</a></div>
+                    <div class="text-textClamp">
+                        Building a custom multisite compatible WordPress plugin to build global search with Algolia
                     </div>
-
+                    <div>
+                        <ul class="m-skillSpace list-none flex text-cardSkill text-[12px]">
+                            <li class="mr-1">ReactJs</li>
+                            <li class="mr-1">NodeJs</li>
+                            <li class="mr-1">React-Query</li>
+                            <li class="mr-1">Mongodb</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex items-center justify-center">
+    <div class="w-full flex items-center">
         <div className="flex flex-col justify-center items-start text-primary py-[20px]">
             <div className="font-medium text-[18px] font-mono text-button mb-[0px]">Hi, my name is</div>
             <div className="flex flex-col justify-center items-start mb-[30px] font-bold font-sans">

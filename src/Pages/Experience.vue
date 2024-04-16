@@ -53,6 +53,18 @@
                     <img src="../assets/Logo/aws.svg" alt="loading..." class="h-12 w-12" />
                     <div class="text-navClamp font-medium mt-5">AWS</div>
                 </div>
+                <div class="flex items-center justify-center flex-col m-8">
+                    <img src="../assets/Logo/github.svg" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">GitHub</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8">
+                    <img src="../assets/Logo/git.svg" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">Git</div>
+                </div>
+                <div class="flex items-center justify-center flex-col m-8">
+                    <img src="../assets/Logo/jwt.svg" alt="loading..." class="h-12 w-12" />
+                    <div class="text-navClamp font-medium mt-5">JWT</div>
+                </div>
             </div>
         </div>
     </div>

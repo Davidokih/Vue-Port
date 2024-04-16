@@ -6,6 +6,7 @@ import FetchData from './components/FetchData.vue';
 import About from './Pages/About.vue';
 import Hero from './Pages/Hero.vue';
 import Experience from './Pages/Experience.vue';
+import Projects from './Pages/Projects.vue';
 import './assets/App.css';
 import { ref } from 'vue';
 
@@ -31,6 +32,7 @@ const objectProps = {
       <Hero />
       <About />
       <Experience />
+      <Projects />
       <!-- <Counter v-bind=" objectProps " />
       <InputsTypes />
       <FetchData /> -->

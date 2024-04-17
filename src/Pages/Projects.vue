@@ -6,15 +6,18 @@
             </div>
             <div class="">
                 <div class="py-8 px-7 bg-cardColor flex flex-col justify-between items-start">
-                    <div class="mb-8">
-                        <div> hello</div>
-                        <div></div>
-                    </div>
-                    <div class="text-navClamp text-[#ccd6f6] font-semibold mb-3"><a
-                            href="https://cross-africa.vercel.app" class="">Cross
-                            Africa</a></div>
-                    <div class="text-textClamp">
-                        Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                    <div>
+                        <div class="mb-8">
+                            <font-awesome-icon :icon=" ['far', 'folder'] " size="2xl"
+                                class="text-clamp text-[#63E6BE]" />
+                            <!-- <div>hello</div> -->
+                        </div>
+                        <div class="text-navClamp text-[#ccd6f6] font-semibold mb-3"><a
+                                href="https://cross-africa.vercel.app" class="">Cross
+                                Africa</a></div>
+                        <div class="text-textClamp leading-6">
+                            Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                        </div>
                     </div>
                     <div>
                         <ul class="m-skillSpace list-none flex text-cardSkill text-[12px]">
@@ -32,7 +35,11 @@
 
 <script setup>
 import Title from '@/components/Title.vue';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFolder } from '@fortawesome/free-regular-svg-icons';
 import { ref } from 'vue';
+
+library.add(faFolder);
 
 const no = ref("03.");
 const name = ref("Projects");

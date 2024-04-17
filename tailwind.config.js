@@ -23,7 +23,7 @@ export default {
       margin: {
         spaces: "10px auto 20px",
         subSpace: "10px 0px 40px",
-        skillSpace: "15px 0px 0px"
+        skillSpace: "20px 0px 0px"
       },
       screens: {
         tablet: { max: '768px' },

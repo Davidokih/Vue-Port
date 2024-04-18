@@ -25,7 +25,12 @@ export default {
         subSpace: "10px 0px 40px",
         skillSpace: "20px 0px 0px"
       },
+      gridTemplateColumns: {
+        cardGrid: "repeat(auto-fill, minmax(300px, 1fr))",
+        mediaGrid: "repeat(auto-fill, minmax(250px, 1fr))"
+      },
       screens: {
+        pc: { max: '906px' },
         tablet: { max: '768px' },
         mobile: { max: '425px' },
         phone: { max: '375px' },

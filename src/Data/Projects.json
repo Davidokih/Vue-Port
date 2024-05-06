@@ -1,8 +1,32 @@
 [
     {
-        "title":"Cross Africa E-commerce Application",
+        "title":"Cross Africa",
         "url":"https://cross-africa.vercel.app",
-        "description":"",
+        "description":"Cross Africa is a E-commerce application  that focus on people from Nigeria and Ghana",
+        "skills":["RecatJs","NodeJs","React-Query","ExpressJs","Mongodb","Redux"]
+    },
+    {
+        "title":"Expence Tracker",
+        "url":"https://cross-africa.vercel.app",
+        "description":"E-Collect  is platform to sell a goods such as plastic,metals and other materials that can be recycled",
+        "skills":["RecatJs","NodeJs","React-Query","ExpressJs","Mongodb"]
+    },
+    {
+        "title":"E-Collect",
+        "url":"https://cross-africa.vercel.app",
+        "description":"E-Collect  is platform to sell a waste, such as plastic,metals and other materials that can be recycled",
+        "skills":["RecatJs","NodeJs","ContextApi","ExpressJs","Mongodb"]
+    },
+    {
+        "title":"Pidgin-App",
+        "url":"https://cross-africa.vercel.app",
+        "description":"This is a user generated pidgin dictionary for user",
+        "skills":["RecatJs","NodeJs","ContextApi","ExpressJs","Mongodb"]
+    },
+    {
+        "title":"Disney Application",
+        "url":"https://cross-africa.vercel.app",
+        "description":"This is a cloned application from the Disney web application",
         "skills":["RecatJs","NodeJs","React-Query","ExpressJs","Mongodb"]
     }
 ]

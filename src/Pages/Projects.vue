@@ -5,7 +5,8 @@
                 <Title :no=' no ' :name=' name ' />
             </div>
             <div class="grid grid-cols-cardGrid gap-[15px] relative pc:grid-cols-mediaGrid w-full">
-                <div class="py-8 px-7 bg-cardColor flex flex-col items-start rounded justify-between">
+                <div class="py-8 px-7 bg-cardColor flex flex-col items-start rounded justify-between"
+                    v-for="(data, index) in data" :key=" index ">
                     <div class="mb-9">
                         <div class="mb-8">
                             <font-awesome-icon :icon=" ['far', 'folder'] " size="xl"
@@ -13,64 +14,15 @@
                             <!-- <div>hello</div> -->
                         </div>
                         <div class="text-navClamp text-[#ccd6f6] font-semibold mb-3"><a
-                                href="https://cross-africa.vercel.app" class="">Cross
-                                Africa</a></div>
+                                :href=" data.url ">{{ data.title }}</a></div>
                         <div class="text-textClamp">
-                            Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                            {{ data.description }}
                         </div>
                     </div>
                     <div>
                         <ul class="m-skillSpace list-none flex text-cardSkill text-[12px] grow flex-wrap">
-                            <li class="mr-1 leading-7">ReactJs</li>
-                            <li class="mr-1 leading-7">NodeJs</li>
-                            <li class="mr-1 leading-7">React-Query</li>
-                            <li class="mr-1 leading-7">Mongodb</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="py-8 px-7 bg-cardColor flex flex-col items-start rounded justify-between">
-                    <div class="mb-9">
-                        <div class="mb-8">
-                            <font-awesome-icon :icon=" ['far', 'folder'] " size="xl"
-                                class="text-subClamp text-[#63E6BE] font-normal" />
-                            <!-- <div>hello</div> -->
-                        </div>
-                        <div class="text-navClamp text-[#ccd6f6] font-semibold mb-3"><a
-                                href="https://cross-africa.vercel.app" class="">Cross
-                                Africa</a></div>
-                        <div class="text-textClamp">
-                            Building a custom multisite compatible WordPress plugin to build global search with Algolia
-                        </div>
-                    </div>
-                    <div>
-                        <ul class="m-skillSpace list-none flex text-cardSkill text-[12px] grow flex-wrap">
-                            <li class="mr-1 leading-7">ReactJs</li>
-                            <li class="mr-1 leading-7">NodeJs</li>
-                            <li class="mr-1 leading-7">React-Query</li>
-                            <li class="mr-1 leading-7">Mongodb</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="py-8 px-7 bg-cardColor flex flex-col items-start rounded justify-between">
-                    <div class="mb-9">
-                        <div class="mb-8">
-                            <font-awesome-icon :icon=" ['far', 'folder'] " size="xl"
-                                class="text-subClamp text-[#63E6BE] font-normal" />
-                            <!-- <div>hello</div> -->
-                        </div>
-                        <div class="text-navClamp text-[#ccd6f6] font-semibold mb-3"><a
-                                href="https://cross-africa.vercel.app" class="">Cross
-                                Africa</a></div>
-                        <div class="text-textClamp">
-                            Building a custom multisite compatible WordPress plugin to build global search with Algolia
-                        </div>
-                    </div>
-                    <div>
-                        <ul class="m-skillSpace list-none flex text-cardSkill text-[12px] grow flex-wrap">
-                            <li class="mr-1 leading-7">ReactJs</li>
-                            <li class="mr-1 leading-7">NodeJs</li>
-                            <li class="mr-1 leading-7">React-Query</li>
-                            <li class="mr-1 leading-7">Mongodb</li>
+                            <li class="mr-1 leading-7" v-for="(skillsData, index) in data.skills" :key=" index ">
+                                {{ skillsData }}</li>
                         </ul>
                     </div>
                 </div>
@@ -84,11 +36,15 @@ import Title from '@/components/Title.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFolder } from '@fortawesome/free-regular-svg-icons';
 import { ref } from 'vue';
+import projectData from "../Data/Projects.json";
 
 library.add(faFolder);
 
+const data = ref(projectData);
 const no = ref("03.");
 const name = ref("Projects");
+
+// console.log(data);
 </script>
 
 <style scoped>

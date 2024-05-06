@@ -10,6 +10,7 @@ import Projects from './Pages/Projects.vue';
 import Contact from './Pages/Contact.vue';
 import './assets/App.css';
 import { ref } from 'vue';
+import MobileNav from './components/MobileNav.vue';
 
 const count = ref(0);
 const dummyData = [
@@ -27,10 +28,10 @@ const objectProps = {
 </script>
 
 <template>
-  <div class="bg-secondary text-primary flex items-center justify-center font-family">
+  <div class="bg-secondary text-primary flex items-center justify-center font-family flex-col">
+    <Header />
     <div class="w-[90%] max-w-[1200px]">
-      <Header />
-      <Hero />
+      <Hero /> c
       <About />
       <Experience />
       <Projects />
@@ -39,5 +40,6 @@ const objectProps = {
       <InputsTypes />
       <FetchData /> -->
     </div>
+    <MobileNav />
   </div>
 </template>

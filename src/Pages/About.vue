@@ -28,7 +28,7 @@
                     <img class="w-[300px] h-[300px] bg-white rounded hover:translate-x-[-4px] hover:translate-y-[-4px]  hover:duration-300 object-cover mobile:w-[200px] mobile:h-[200px] z-30"
                         src="../assets/IMG_9519.JPG" alt="" />
                     <div
-                        class="w-[300px] h-[300px] bg-[#0A192F] rounded absolute opacity-50 hover:opacity-5 mobile:w-[200px] mobile:h-[200px] z-40">
+                        class="w-[300px] h-[300px] bg-[#0A192F] rounded absolute opacity-50 hover:opacity-5 mobile:w-[200px] mobile:h-[200px] z-30">
                     </div>
 
                 </div>

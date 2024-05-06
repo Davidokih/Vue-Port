@@ -1,7 +1,7 @@
 <template>
     <div class="w-full flex items-center">
         <div className="flex flex-col justify-center items-start text-primary py-[20px]">
-            <div className="font-medium text-[18px] font-mono text-button mb-[0px]">Hi, my name is</div>
+            <div className="font-medium text-[18px] font-mono text-button mb-[0px]">Hi There, My Name Is</div>
             <div className="flex flex-col justify-center items-start mb-[30px] font-bold font-sans">
                 <div className="text-[#ccd6f6] mb-0 text-clamp">David Okih.</div>
                 <div className="text-primary text-clamp">I Build Web Applicatons.</div>

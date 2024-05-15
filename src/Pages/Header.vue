@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center items-center w-full py-7">
         <div class="flex w-[90%] justify-between">
-            <h1>Title</h1>
+            <h1>DO</h1>
             <div class="flex justify-between items-center transition-all gap-6 font-bold tablet:hidden">
                 <div class="cursor-pointer hover:text-button"><span class="text-button mr-1">01.</span>
                     <span>About</span>

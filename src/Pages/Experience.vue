@@ -75,6 +75,7 @@ import { ref } from 'vue';
 import Title from '../components/Title.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
+
 const no = ref('02.');
 const name = ref('Experience');
 

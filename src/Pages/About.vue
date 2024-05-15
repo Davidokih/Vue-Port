@@ -23,10 +23,10 @@
                 </div>
                 <div class="w-[90%] radio:w-[100%] relativ flex items-center justify-center">
                     <div
-                        class="w-[300px] h-[300px] border-2 border-white rounded translate-x-[15px] translate-y-[15px] hover:translate-x-[20px] hover:translate-y-[20px] hover:duration-300 absolute mobile:w-[200px] mobile:h-[200px]">
+                        class="w-[300px] h-[300px] border-2 border-button rounded translate-x-[15px] translate-y-[15px] hover:translate-x-[20px] hover:translate-y-[20px] hover:duration-300 absolute mobile:w-[200px] mobile:h-[200px]">
                     </div>
                     <img class="w-[300px] h-[300px] bg-white rounded hover:translate-x-[-4px] hover:translate-y-[-4px]  hover:duration-300 object-cover mobile:w-[200px] mobile:h-[200px] z-30"
-                        src="../assets/IMG_9519.JPG" alt="" />
+                        src="../assets/Logo/IMG_9519.JPG" alt="" />
                     <div
                         class="w-[300px] h-[300px] bg-[#0A192F] rounded absolute opacity-50 hover:opacity-5 mobile:w-[200px] mobile:h-[200px] z-30">
                     </div>

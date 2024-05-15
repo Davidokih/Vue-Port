@@ -40,6 +40,6 @@ const objectProps = {
       <InputsTypes />
       <FetchData /> -->
     </div>
-    <MobileNav />
+    <!-- <MobileNav /> -->
   </div>
 </template>

@@ -1,6 +1,12 @@
 {
-    "rewrites": [{
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }]
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/main.js",
+      "use": "@vercel/node",
+      "config": {
+        "assetsInclude": ["**/*.jpg"]
+      }
+    }
+  ]
 }

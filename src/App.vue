@@ -31,7 +31,7 @@ const objectProps = {
   <div class="bg-secondary text-primary flex items-center justify-center font-family flex-col">
     <Header />
     <div class="w-[90%] max-w-[1200px]">
-      <Hero /> c
+      <Hero />
       <About />
       <Experience />
       <Projects />
